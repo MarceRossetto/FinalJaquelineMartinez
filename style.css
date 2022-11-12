@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+    
+    
+}
+
+
+
+/*-------------------------HEADER-------------*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+    
+}
+
+.header__logo {
+    width: 150px;
+    height: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar__list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 230px;
+    
+}
+
+.list__pag {
+    
+    margin-left: 200px;
+    font-size: 24px;
+    border: 3px solid #C9AC1E;
+    border-radius: 60px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(48, 43, 34, 0.8);
+    
+}
+
+/*------------------------------------ Pag INICIO-------------*/
+.index {
+    background-image: url(./img/inicio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw;
+    
+  
+}
+
+h1 {
+    color: white;
+    font-family: 'Judson', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: lighter;
+}
+
+.main__index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    margin-top: 60px;
+    
+}
+
+.index__img {
+    display: flex;
+    
+
+    
+    
+}
+.img__inside {
+    margin: 10px;
+}
+.index__text {
+    background-color: rgba(118, 175, 157, 0.6);
+    width: 600px;
+    height: 400px;
+    margin-right: 120px;
+    border-radius: 30px;
+    
+    
+}
+
+.text__description {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+
+}
+
+.text__tittlemain {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------ PAGINA SERVICIOS--------------------------*/
+.services {
+    background-image: url(./img/fondoservicio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw;
+}
+
+.service__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.container__manicure {
+    width: 80vw;
+    height: 350px;
+    background-color: rgb(243, 218, 216, 0.5);
+    border-radius: 40px;
+    padding: 30px;
+    
+    
+
+}
+
+.manicure__service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+  
+    
+    
+}
+
+.manicure__description {
+    margin-left: 60px;
+}
+
+.list__type {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    text-align: start;
+}
+
+.description__list {
+    list-style-type: circle;
+}
+
+.container__facial {
+    margin-top: 60px;
+    width: 80vw;
+    height: 350px;
+    background-color: rgb(243, 218, 216, 0.5);
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.facial__service {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 80px;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}
+
+.facial__description {
+    margin-right: 80px;
+}
+
+
+
+
+
+
+/*------------------------------------ PAG SHOP ------------------------*/
+.shop {
+    background-image: url(./img/fondoshop.jpg);
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerProducts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(195, 162, 158, 0.8);
+    border-radius: 40px;
+    margin: 30px;
+    margin-left: 170px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+    
+}
+
+.button-buy {
+    width: 70px;
+    height: 30px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    font-family: 'Judson', serif;
+    font-size: 15px;
+}
+
+.card__tittle, .card__price {
+    color: white;
+    font-size: 16px;
+    font-family: 'Judson', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------ Pag GALERIA---------------------------*/
+.galery {
+    background-image: url(./img/galeria.jpg);
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h2 {
+    color: white;
+    font-family: 'Judson', serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: lighter;
+    
+    
+}
+
+.fase__facial, .hands__manicure {
+    color: white;
+    font-family:'Judson', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: lighter;
+    
+}
+
+.container-galery {
+    display: flex;
+    flex-direction: column;
+    
+   
+
+}
+
+.hands__img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.face {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.face__img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+/*------------------------------------ Pag Contacto-------------*/
+.body-contact {
+    background-image: url(./img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw;
+    
+}
+
+.form {
+    background-color: rgba(118, 175, 157, 0.6);
+    width: auto;
+    height: auto;
+    margin: 50px;
+    margin-left: 150px;
+    color: white;
+    font-size: 25px;
+    border-radius: 60px;
+}
+
+textarea {
+    border-radius: 10px;
+    border-style: none;
+    width: 1480px;
+    height: 120px;
+    resize:none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.form__form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__description {
+    margin: 10px;
+}
+
+input {
+    width: 1500px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+}
+
+.form__button {
+    width: 1500px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #6e9c8a;
+    border-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Judson', serif;
+}
+
+.section-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact__days {
+    font-size: 40px;
+    color: white;
+
+}
+
+.section-pay {
+    font-size: 40px;
+    color: white;
+}
+
+
+/*-------------------FOOTER-------------*/
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    color: white;
+    height: 140px;
+    
+    margin-top: 120px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Judson', serif;
+}
+
+.logo-redes {
+    margin-left: 40px;
+}
